@@ -76,7 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: rgb(42, 180, 65);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -93,7 +93,7 @@ hr {
   color: #555;
   font-size: 15px;
   font-weight: 400;
-  padding: 8px 2px;
+  padding: 8px 15px;
   border-radius: 0;
   margin: 9px 20px 0;
 }
@@ -208,7 +208,8 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/lawnmowing.jpg) center center no-repeat;
+  opacity: .8;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -263,6 +264,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
+  background-color: #6db87f5b;
 }
 #about h3 {
   font-size: 22px;
@@ -310,6 +312,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
+  
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
 }
@@ -441,13 +444,15 @@ header .intro-text {
 }
 /* Team Section */
 #team {
+  background-color:#6db87f5b;
+  ;
   padding: 100px 0;
 }
 #team h4 {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 1000px;
 }
 #team .thumbnail {
   background: transparent;
